@@ -2,7 +2,7 @@ import tensorflow as tf
 import numpy as np
 import pygame
 
-TRAIN_DATA = True
+TRAIN_DATA = False
 train_x, train_y, test_x, test_y, model = None, None, None, None, None
 CELL_SIZE = 30
 
